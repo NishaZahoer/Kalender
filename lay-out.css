@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid #B4C1CC;
+	border-collapse: collapse;
+	border-radius: 200px;
+	font-size: 20px;
+	font-family: Courier New, Monospace;
+	font-style: italic;
+	color: #191919;
+ }
+ 
+td {
+	background-color: #E1F1FF;
+ }
+
+td:nth-child(6) {
+	background-color: #CAD9E6;
+}
+
+td:nth-child(7) {
+	background-color: #CAD9E6;
+}
+
+th,td {
+	padding: 5px;
+	text-align: center;
+}
+
+.selected {
+	background: #A3D1FF;
+}
+	
+	
+	
